@@ -15,7 +15,7 @@ public class Camera : MonoBehaviour
 
     void LateUpdate()
     {
-        if (player.position.x >= -5 && player.position.x <= 66.52f)
+        if (player.position.x >= -5 && player.position.x <= 68.52f)
         {
             Vector3 following = new Vector3(player.position.x, transform.position.y, transform.position.z);
             transform.position = Vector3.Lerp(transform.position, following, suavidade * Time.deltaTime);

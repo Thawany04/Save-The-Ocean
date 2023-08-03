@@ -6,11 +6,15 @@ using UnityEngine;
 
 public class Lixos : MonoBehaviour
 {
+    public int lixo;
+
     private void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag == "Submarino")
-        {   
-            Destroy(gameObject, 0.1f);
+        {
+            Controler.intance.updateLixos(lixo);
+            Destroy(gameObject);
         }
     }
+
 }

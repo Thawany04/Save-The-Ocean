@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 8280294354524808417}
   - component: {fileID: 8280294354524808418}
   - component: {fileID: 1010929486748490314}
+  - component: {fileID: 901437340}
   m_Layer: 0
   m_Name: Sacolas
-  m_TagString: Untagged
+  m_TagString: Lixos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: d56b49061db84b74286c48120931771c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -116,7 +117,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.014224857, y: 0.009483188}
@@ -132,3 +133,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5542877, y: 0.5964803}
   m_EdgeRadius: 0
+--- !u!114 &901437340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8280294354524808419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6bf462051859de4e9dcc8950765c637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lixo: 1

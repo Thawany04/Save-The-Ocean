@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 559553138826710610}
   - component: {fileID: 559553138826710611}
   - component: {fileID: 4499097950507429648}
+  - component: {fileID: 222857113}
   m_Layer: 0
   m_Name: 'quentinha para 3 pessoas '
-  m_TagString: Untagged
+  m_TagString: Lixos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 53d0b8ae5ad3cd44ebc8f7b9a9c0e5d3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -116,7 +117,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.023116827, y: 0.023116708}
@@ -132,3 +133,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0589406, y: 0.7810086}
   m_EdgeRadius: 0
+--- !u!114 &222857113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559553138826710612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6bf462051859de4e9dcc8950765c637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lixo: 1

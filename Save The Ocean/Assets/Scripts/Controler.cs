@@ -2,14 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Controler : MonoBehaviour
 {
     public static Controler intance;
 
     public int lixos;
-
     public Text TextLixo;
+
+
+    public Text textVida;
     
     
     public GameObject chave;
@@ -35,6 +38,13 @@ public class Controler : MonoBehaviour
         if (lixos == 9)
         {
             chave.gameObject.SetActive(true);
+            Time.timeScale = 0;
         }
     }
+
+    public void updatevida(int value)
+    {
+        textVida.text = "" + value.ToString();
+    }
+    
 }

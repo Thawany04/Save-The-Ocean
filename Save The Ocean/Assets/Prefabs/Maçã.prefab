@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 7208049304094142901}
   - component: {fileID: 7208049304094142902}
   - component: {fileID: 5457562851459655720}
+  - component: {fileID: 1848479654}
   m_Layer: 0
   m_Name: "Ma\xE7\xE3"
-  m_TagString: Untagged
+  m_TagString: Lixos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2be375339b13a774d86bce629431a829, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -116,9 +117,22 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.046233416}
   serializedVersion: 2
   m_Radius: 0.3214202
+--- !u!114 &1848479654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7208049304094142903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6bf462051859de4e9dcc8950765c637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lixo: 1

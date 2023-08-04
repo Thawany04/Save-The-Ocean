@@ -7,6 +7,8 @@ public class Camera : MonoBehaviour
 {
     public Transform player;
     public float suavidade;
+    public int posI;
+    public int posF;
 
     private void Start()
     {
@@ -15,7 +17,7 @@ public class Camera : MonoBehaviour
 
     void LateUpdate()
     {
-        if (player.position.x >= -5 && player.position.x <= 68.52f)
+        if (player.position.x >= posI && player.position.x <= posF)
         {
             Vector3 following = new Vector3(player.position.x, transform.position.y, transform.position.z);
             transform.position = Vector3.Lerp(transform.position, following, suavidade * Time.deltaTime);

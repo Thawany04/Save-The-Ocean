@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ControlerScenes : MonoBehaviour
 {
+    public int level = 1;
 public void Menu()
 
     {
@@ -19,6 +20,7 @@ public void Menu()
     public void level2()
     {
         SceneManager.LoadScene(2);
+        Time.timeScale = 1;
     }
 
     public void level3()

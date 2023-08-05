@@ -39,12 +39,7 @@ public class Controler : MonoBehaviour
         if (lixos == 9)
         {
             chave.gameObject.SetActive(true);
-            Time.timeScale = 0;
         }
     }
-
-    public void updatevida(int value)
-    {
-        textVida.text = "" + value.ToString();
-    }
+    
 }

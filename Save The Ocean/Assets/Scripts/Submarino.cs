@@ -38,28 +38,4 @@ public class Submarino : MonoBehaviour
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
     }
-
-    public void damege(int dmg)
-    {
-        vida -= dmg;
-        Controler.intance.updatevida(vida);
-        
-        if(transform.rotation.y == 0)
-        {
-            transform.position += new Vector3(-0.7f, 0, 0);
-        }
-
-        if(transform.rotation.y == 180)
-        {
-            transform.position += new Vector3(0.7f, 0, 0);
-        }
-    }
-    /*private void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.tag == "Inimigo")
-        {
-            damege();
-        }
-    }*/
-    
 }

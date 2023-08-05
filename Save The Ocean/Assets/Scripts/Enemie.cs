@@ -9,6 +9,7 @@ public class Enemie : MonoBehaviour
     public int walkTime;
     public bool walkRight;
     public int speed;
+    public int damege = 1;
 
     private Rigidbody2D rig;
 
@@ -40,5 +41,4 @@ public class Enemie : MonoBehaviour
         }
         
     }
-    
 }
